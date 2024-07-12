@@ -24,6 +24,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 30
 
+    namespace "flutter.plugins.contactsservice.contactsservice"
+    
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 30
